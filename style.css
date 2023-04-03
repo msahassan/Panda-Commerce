@@ -1,0 +1,121 @@
+/* Container section */
+.container{
+    margin-bottom: 100px;
+}
+/* Home section */
+.orange-bg::before{
+    content: "";
+    background-color: #fceae8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+/* product section */
+.cat-1, .cat-2, .cat-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.cat-1{
+    
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    padding: 9px 23px;
+    border-radius: 10px;
+}
+.cat-2{
+    
+    background-image: linear-gradient(to bottom, #ae58ff 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    padding: 9px 23px;
+    border-radius: 10px;
+}
+.cat-3{
+    
+    background-image: linear-gradient(to bottom, #d8ff58 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    padding: 9px 23px;
+    border-radius: 10px;
+}
+/* Shoes section */
+ 
+.card-deck{
+    box-shadow: 5px 5px 20px rgb(208, 197, 197);
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: 5px 5px 10px ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    /* border: var(--bs-card-border-width) solid var(--bs-card-border-color); */
+     border-radius: var(--bs-card-border-radius); 
+}
+.card-footer {
+    background-color: #fff;
+    border-top: none;
+}
+
+/* Utility class */
+.price{
+    color: #ff136f;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    padding: 9px 23px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+/* Contact section */
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: darksalmon;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px pink;
+}
+.box{
+    width: 300px;
+}
+/* Footer section */
+footer{
+    text-align: center;
+}
